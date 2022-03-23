@@ -12,7 +12,7 @@ except:
 
 HEADER = 64
 PORT = 5050
-SERVER = '2001:9e8:2cbc:e500:e45a:69ef:c7fa:da79'
+SERVER = '2001:9e8:2cbc:e500:e45a:69ef:c7fa:da79' #! Ther servers public ip here
 ADDR = (SERVER, PORT)
 FORMAT = 'utf-8' 
 DISCONNECT_MSG = '!DISCONNECT'
