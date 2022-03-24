@@ -12,7 +12,7 @@ HEADER = 64
 PORT = 5050
 FORMAT = 'utf-8'
 DISCONNECT_MSG = '!DISCONNECT'
-SERVER = '2001:9e8:2cbc:e500:e45a:69ef:c7fa:da79' #! Ther servers public ip here
+SERVER = '192.168.110.35'
 ADDR = (SERVER, PORT)
 USER_MSG = '[USER]'
 
