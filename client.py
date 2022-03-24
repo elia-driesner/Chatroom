@@ -12,7 +12,7 @@ HEADER = 64
 PORT = 5050
 FORMAT = 'utf-8'
 DISCONNECT_MSG = '!DISCONNECT'
-SERVER = '192.168.110.35'
+SERVER = socket.gethostbyname(socket.gethostname())
 ADDR = (SERVER, PORT)
 USER_MSG = '[USER]'
 
